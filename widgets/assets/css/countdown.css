@@ -1,0 +1,90 @@
+
+.countdown-wrapper {
+  padding: 50px;
+  color: black;
+}
+#serviceTitle {
+  text-transform: uppercase;
+  text-shadow: 12px;
+  font-size: 20px;
+}
+#countdown {
+  display: flex;
+}
+/* .units {
+  text-transform: lowercase;
+  clear: both;
+} */
+ .style1 > span {
+  margin: 0px;
+  padding: 30px 15px;
+}
+.style2 > span {
+  margin: 10px;
+  display: flex;
+}
+/* .style3 > span {
+  margin: 0px;
+  padding: 30px 15px;
+} */
+.time-span {
+  padding: 30px;
+  text-align: center;
+  clear: both;
+}
+.time-span > h6{
+  text-align: center;
+  /*animation: style1 4s forwards;*/
+}
+/**KEYFRAME ANIMATION**/
+@-webkit-keyframes style1 {
+  from {
+    margin-top: 100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-top: 0%, 100%;
+    height: 5%;
+  }
+}
+@-moz-keyframes style1 {
+  from {
+    margin-top: 100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+@-o-keyframes style1 {
+  from {
+    margin-top: 100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+@keyframes style1 {
+  from {
+    margin-top: 100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .time-span {
+    width: 30%;
+  }
+}
